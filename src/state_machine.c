@@ -10,11 +10,16 @@
 #include <ctype.h>
 #include <errno.h>
 
+/* ==================================== *\
+ *            PRIVATE DEFINES           *
+\* ==================================== */
+
 #define FUNCTION_SUCCESS    0U
 
 /* ==================================== *\
  *       PRIVATE TYPES DEFINITION       *
 \* ==================================== */
+
 typedef enum currentOfMachine
 {
     CALCULATOR_MACHINE_1,

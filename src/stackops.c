@@ -93,7 +93,7 @@
 
 /** ============================================================================
   @fn       Stack_pushOp
-  @package  RPN_calculator
+  @package  stack_ops
   
   @brief    Pushes an operator onto the operator stack.
  
@@ -137,7 +137,7 @@ end_of_function:
 
 /** ============================================================================
   @fn       Stack_popOp
-  @package  RPN_calculator
+  @package  stack_ops
   
   @brief    Pops the top operator from the operator stack.
  
@@ -178,7 +178,7 @@ end_of_function:
 
 /** ============================================================================
   @fn       Stack_peekOp
-  @package  RPN_calculator
+  @package  stack_ops
   
   @brief    Peeks at the top operator of the operator stack without removing it.
  
@@ -219,7 +219,7 @@ end_of_function:
 
 /** ============================================================================
   @fn       Stack_isEmpty
-  @package  RPN_calculator
+  @package  stack_ops
   
   @brief    Checks if the operator stack is empty.
  
@@ -255,7 +255,7 @@ end_of_function:
 
 /** ============================================================================
   @fn       Stack_pushVal
-  @package  RPN_calculator
+  @package  stack_ops
   
   @brief    Pushes a numerical value onto the value stack.
  
@@ -299,7 +299,7 @@ end_of_function:
 
 /** ============================================================================
   @fn       Stack_popVal
-  @package  RPN_calculator
+  @package  stack_ops
   
   @brief    Pops the top numerical value from the value stack.
  
@@ -341,7 +341,7 @@ end_of_function:
 
 /** ============================================================================
   @fn       Stack_isEmptyVal
-  @package  RPN_calculator
+  @package  stack_ops
   
   @brief    Checks if the value stack is empty.
  

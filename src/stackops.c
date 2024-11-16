@@ -4,7 +4,8 @@
 
     @package    stack_ops
     @brief      This module provides functionalities for stack operations,
-                including managing operator and value stacks for an RPN calculator.
+                including managing operator and value stacks for an RPN 
+                calculator.
 
     @file       stackops.c
     @headerfile stackops.h
@@ -12,11 +13,11 @@
     @author     Rafael V. Volkmer (rafael.v.volkmer@gmail.com)
     @date       16.11.2024
  
-    @details    The Stack Operations module manages operator and value stacks used 
-                in a Reverse Polish Notation (RPN) calculator. 
-                It provides functionalities to push and pop operators and numerical 
-                values, check stack states, and peek at the top elements without 
-                odifying the stacks.
+    @details    The Stack Operations module manages operator and value stacks 
+                used in a Reverse Polish Notation (RPN) calculator. 
+                It provides functionalities to push and pop operators and 
+                numerical values, check stack states, and peek at the top 
+                elements without odifying the stacks.
      
     @note       - Ensure that the stacks are properly initialized before 
                   performing any push or pop operations.

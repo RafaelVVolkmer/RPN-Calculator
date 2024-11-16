@@ -78,12 +78,13 @@
 
   @brief    Defines the possible states of the operator stack.
 
-  @details  Enumerates the states indicating whether the operator stack is full or empty.
+  @details  Enumerates the states indicating whether the operator stack is full 
+            or empty.
 ============================================================================ **/
 typedef enum stackStates
 {
-    STACK_FULL,                                     /*< Indicates that the operator stack is full >*/
-    STACK_EMPTY                                     /*< Indicates that the operator stack is empty >*/
+    STACK_FULL,     /*< Indicates that the operator stack is full >*/
+    STACK_EMPTY     /*< Indicates that the operator stack is empty >*/
 } stack_states_t;
 
 /** ============================================================================
@@ -94,8 +95,8 @@ typedef enum stackStates
 
   @brief    Represents the operator stack structure.
 
-  @details  Contains a two-dimensional array to store operator tokens and an integer 
-            to keep track of the top index of the stack.
+  @details  Contains a two-dimensional array to store operator tokens and an 
+            integer to keep track of the top index of the stack.
 ============================================================================ **/
 typedef struct 
 {
@@ -111,13 +112,13 @@ typedef struct
 
   @brief    Represents the value stack structure.
 
-  @details  Contains an array to store numerical values and an integer to keep track 
-            of the top index of the stack.
+  @details  Contains an array to store numerical values and an integer to keep 
+            track of the top index of the stack.
 ============================================================================ **/
 typedef struct 
 {
-    double  data[MAX_STACK_SIZE];                   /*< Array to store numerical values >*/
-    int     top;                                    /*< Index of the top element in the stack >*/
+    double  data[MAX_STACK_SIZE];   /*< Array to store numerical values >*/
+    int     top;                    /*< Index of the top element in the stack >*/
 } stack_val_t;
 
 /* ==================================== *\
